@@ -2,7 +2,9 @@
 _Image classification_
 
 ## Recycling
-Definition
+According to the Waste Framework Directive, **recycling** is defined as
+
+>  "any recovery operation by which waste materials are reprocessed into products, materials or substances whether for the original or other purposes"
 
 ### Beyond recycling
 For a long time, we all became familiar with the 3R's (Recycling, Reduce, Reuse), but that concept is obsolete and more R's and other letters in the alphabeth have joined the team in an effort to fight climate change, biodiversity loss, habitat fragmentation, desertification and much more.
