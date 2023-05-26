@@ -80,9 +80,9 @@ if selected == "About me":
         with col2:
             st.write(
                 """
-                - :bird: [Twitter]()
-                - :computer: [GitHub]()
-                - :printer: [LinkedIn]()
+                - :bird: [Twitter](https://twitter.com/tallaringues)
+                - :computer: [GitHub](https://github.com/Tallaringues)
+                - :printer: [LinkedIn](https://www.linkedin.com/in/martaalirangues/)
                 """
                      )
     with st.container():
