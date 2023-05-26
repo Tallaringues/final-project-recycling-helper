@@ -22,6 +22,7 @@ st.set_page_config(
 # LOAD ASSETS
 lottie_recycle = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_VRpTUvkfkU.json")
 lottie_contact = load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_in4cufsz.json")
+lottie_resources = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_1a8dx7zj.json")
 
 #with st.sidebar:
 selected = option_menu(
@@ -132,13 +133,39 @@ elif selected == "Resources":
         </style> """, unsafe_allow_html=True)
     st.markdown('<p class="font">Some interesting resources</p>', unsafe_allow_html=True)
     with st.container():
-        st.subheader("Be more sustainable in your day to day life")
-        st.write("###")
+        col1, col2 = st.columns([0.7,0.3])
+        with col1:
+            st.subheader("What about some interesting books? :book:")
+            st.write(
+            """
+            - Silent Spring by Rachel Carson - Read a review in [Goodreads](https://www.goodreads.com/book/show/27333.Silent_Spring)
+            - How to blow a Pipeline by Andreas Malm - Read an interview in [The Guardian](https://www.theguardian.com/environment/2023/apr/21/climate-diplomacy-is-hopeless-says-author-of-how-to-blow-up-a-pipeline-andreas-malm)
+            - Cómo dinamitar un oleoducto por Andreas Malm - (Spanish version) - Puedes leer acerca del libro y comprarlo [aquí](https://tienda.elsaltodiario.com/producto/como-dinamitar-un-oleoducto/)
+
+            """
+        )
+        
+        with col2:
+            st_lottie(lottie_resources, height=300, key="resources", loop=False)
+    with st.container():
+        st.subheader("Be more sustainable in your day to day life :seedling:")
+        #st.write("###")
         st.write(
             """
-            - :
+            - Think twice before shopping.
+            - Make sure your big purchases have big environmental benefits.
+            - Go #PlasticFree.
+            - Boycott products that endanger wildlife.
+            - Pay attention to labels.
+            - Be water wise.
+            - Drive less, drive green.
+            - Green your home.
+            - Choose Wild Energy.
+            - Take Extinction Off Your Plate.
+            - Use your voice and your vote.
             """
 		)
+        st.write("[More information >](https://www.biologicaldiversity.org/programs/population_and_sustainability/sustainability/live_more_sustainably.html)")
 
 elif selected == "Home":
     st.markdown(""" <style> .font {
