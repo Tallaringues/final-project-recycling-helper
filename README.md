@@ -1,5 +1,8 @@
 # Final Bootcamp Project - Recycling helper
-_Image classification_
+
+![Recyclapp](https://github.com/Tallaringues/final-project-recycling-helper/blob/main/recyclapp_home.PNG)
+
+_Image classification using Convolutional Neural Networks_
 
 ## Recycling
 According to the [Waste Framework Directive](https://joint-research-centre.ec.europa.eu/scientific-activities-z/less-waste-more-value/definition-recycling_en), **recycling** is defined as
